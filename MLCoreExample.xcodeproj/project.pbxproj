@@ -12,6 +12,8 @@
 		122E5698218D7EDD009AE1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122E5696218D7EDD009AE1EF /* Main.storyboard */; };
 		122E569A218D7EDD009AE1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122E5699218D7EDD009AE1EF /* Assets.xcassets */; };
 		122E569D218D7EDD009AE1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122E569B218D7EDD009AE1EF /* LaunchScreen.storyboard */; };
+		122E56A5218D8112009AE1EF /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 122E56A4218D8112009AE1EF /* GoogLeNetPlaces.mlmodel */; };
+		122E56A7218D81C5009AE1EF /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E56A6218D81C5009AE1EF /* ImageProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		122E5699218D7EDD009AE1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		122E569C218D7EDD009AE1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		122E569E218D7EDD009AE1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		122E56A4218D8112009AE1EF /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		122E56A6218D81C5009AE1EF /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				122E5692218D7EDD009AE1EF /* AppDelegate.swift */,
+				122E56A4218D8112009AE1EF /* GoogLeNetPlaces.mlmodel */,
 				122E5694218D7EDD009AE1EF /* ViewController.swift */,
 				122E5696218D7EDD009AE1EF /* Main.storyboard */,
 				122E5699218D7EDD009AE1EF /* Assets.xcassets */,
 				122E569B218D7EDD009AE1EF /* LaunchScreen.storyboard */,
 				122E569E218D7EDD009AE1EF /* Info.plist */,
+				122E56A6218D81C5009AE1EF /* ImageProcessor.swift */,
 			);
 			path = MLCoreExample;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				122E5695218D7EDD009AE1EF /* ViewController.swift in Sources */,
 				122E5693218D7EDD009AE1EF /* AppDelegate.swift in Sources */,
+				122E56A7218D81C5009AE1EF /* ImageProcessor.swift in Sources */,
+				122E56A5218D8112009AE1EF /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
